@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Poppins:wght@400;600&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        * {
+
+            padding: 0;
+            margin: 0;
+
+        }
+
+        body {
+            background-color: rgb(0, 0, 32);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(42, 42, 82);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(144, 144, 240);
+            font-size: 1.06rem;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.3px;
+            margin: 40px 85px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+        }
+
+        .leftSection {
+
+            font-size: 1.8rem;
+            margin: 30px 0;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(161, 97, 221);
+        }
+
+        #element {
+            color: rgb(161, 97, 221);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 500px;
+        }
+
+        .secondSection h1 {
+            font-size: 1.7rem;
+            position: relative;
+            left: 46px;
+        }
+
+        .gray {
+            color: gray;
+            position: relative;
+            left: 46px;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 71vw;
+            height: 2px;
+            margin: 76px 2px;
+            display: flex;
+            position: relative;
+            left: 45px;
+        }
+
+        .secondSection .vertical {
+            height: 100px;
+            background-color: white;
+            width: 2px;
+            margin: 0 110px;
+            position: relative;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: -47px;
+            left: -46px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 75px;
+            left: -24px;
+            font-size: 12px;
+
+        }
+
+        footer {
+            background-color: #0e0d26;
+            width: 100%;
+            height: 200px;
+        }
+
+        .footer {
+            padding: 23px 100px;
+            display: flex;
+            justify-content: right;
+            color: gray;
+
+        }
+
+        .footer-second {
+            position: relative;
+            right: 20rem;
+
+        }
+
+        .footer-first {
+            position: relative;
+           right: 43rem;
+            color: gray;
+
+        }
+
+        .footer-third {
+            position: relative;
+            right: 15rem;
+
+        }
+
+        .footer-fourth {
+            position: relative;
+            right: 10rem;
+
+        }
+
+        .footer-fifth {
+            position: relative;
+            right: 5rem;
+
+        }
+
+        .footer-sixth {
+            position: relative;
+            top: 5rem;
+            right: 36rem;
+
+        }
+
+        .footer-seventh {
+            position: relative;
+            top: 5rem;
+            right: 33rem;
+
+        }
+
+        .footer-copywrite {
+            position: relative;
+            top: 10rem;
+            right: -6rem;
+        }
+
+        .btn-left {
+            position: relative;
+            top: 2rem;
+            font-size: 18px;
+            padding: 6px;
+            background-color: blueviolet;
+            border: 1px solid white;
+            border-radius: 10px;
+            cursor: pointer;
+            color: #0e0d26;
+        }
+        .btn-right {
+            position: relative;
+            top: 2rem;
+            font-size: 18px;
+            padding: 6px;
+            background-color: blueviolet;
+            border: 1px solid white;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .btn-left a{
+            text-decoration: none;
+            color: black;
+        }
+        .btn-right a{
+            text-decoration: none;
+            color: black;
+        }
+        .btn-left:hover{
+            font-size: 20px;
+        }
+        .btn-right:hover{
+            font-size: 20px;
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Saif's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact me</a></li>
+                </ul>
+            </div>
+
+
+        </nav>
+
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Saif</span>
+
+                <div>and I am a passionate</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+                <div class="button">
+                    <button class="btn-left"><a href="bg.png.png">Download resume</a></button>
+                    <button class="btn-right"><a href="bg.png.png">Call me</a></button>
+                </div>
+            </div>
+            
+            <div class="rightSection">
+                <img src="bg.png.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="gray">My educational background so far</span>
+            <h1>Educational qualification</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-title">10th(2009)</div>
+                    <div class="vertical-desc">Passed 10th from St. Anthony
+                        college and scored 65%.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">12th(2011)</div>
+                    <div class="vertical-desc">Passed 12th from St. Anthony
+                        college and scored 73%.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">Graduation(2016)</div>
+                    <div class="vertical-desc">Graduate from Faizabad University
+                        in History and Social Science.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">Graduation(2022)</div>
+                    <div class="vertical-desc">Graduation from Allahabad University
+                        and scored 74% in Education.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">Web Development(2022)</div>
+                    <div class="vertical-desc">Learned HTML,CSS,JS,Microsoft Web Forms,
+                        DOT NET Developer
+
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">Saif's Portfolio</div>
+            <div class="footer-second">Home</div>
+            <div class="footer-third">About</div>
+            <div class="footer-fourth">Contact Us</div>
+            <div class="footer-fifth">Careers</div>
+            <div class="footer-sixth">Database</div>
+            <div class="footer-seventh">Advertise</div>
+            <div class="footer-copywrite">@All rights reserve</div>
+
+
+
+        </div>
+
+
+
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Dot Net Developer', 'Web Designer', 'Windows Form Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
